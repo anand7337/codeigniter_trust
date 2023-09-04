@@ -1,0 +1,131 @@
+/* Icon set - http://ionicons.com */
+
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+.snip1318 {
+    font-family: 'Raleway', Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 160px;
+    max-width: 370px;
+    width: 100%;
+    background: #ffffff;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.snip1318 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out;
+}
+
+.snip1318 img {
+   max-width: 100%;
+    /* vertical-align: top; */
+}
+
+.snip1318 i {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    font-size: 28px;
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    z-index: 1;
+}
+
+.snip1318:after {
+    background: #cf1776;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    content: '';
+    border-radius: 0% 76% 99% 1% / 25% 0% 0% 25%;
+    /* border-radius: 50%; */
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+	opacity: 0.70;
+}
+
+.snip1318 a {
+    /* left: 0; */
+    left: 80px;
+    /* top: 0; */
+    bottom: 0;
+    position: absolute;
+	color:#ffffff;
+	line-height: 50px;
+    z-index:99;
+}
+.snip1318 a:after {
+    background:rgba(0, 0, 0, 0.75);
+    width:300px;
+    height: 45px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    content: '';
+    border-radius: 0% 76% 99% 0% / 25% 0% 0% 25%;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+	z-index:-1;
+}
+
+
+.snip1318:hover img {
+    opacity: 0.9;
+}
+
+.snip1318:hover:after {
+    -webkit-transform: scale(10);
+    transform: scale(10);
+    opacity: 0.45;
+}
+
+.snip1318:hover i {
+    -webkit-transform: scale(2) translate(70px, -60px);
+    transform: scale(2) translate(70px, -60px);
+}
+.snip1318:hover a {
+    -webkit-transform: scale(2) translate(40px, -35px);
+    transform: scale(2) translate(40px, -35px);
+	background: none;
+}
+.snip1318:hover a:after {
+	background: none;
+}
+
+.snip1318:nth-child(1):after {
+	background: red;
+}
+.snip1318:nth-child(2):after {
+	background: rgb(208, 255, 0);
+}
+.snip1318:nth-child(3):after {
+	background: rgb(0, 255, 225);
+}
+.snip1318:nth-child(4):after {
+	background: rgb(21, 0, 255);
+}
+.snip1318:nth-child(5):after {
+	background: rgb(255, 0, 225);
+}
+.snip1318:nth-child(6):after {
+	background: rgb(175, 148, 13);
+}
+.snip1318:nth-child(7):after {
+	background: rgb(162, 104, 164);
+}
+.snip1318:nth-child(8):after {
+	background: rgb(0, 255, 174);
+}
+.snip1318:nth-child(9):after {
+	background: rgba(40, 4, 82, 0.885);
+}
